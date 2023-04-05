@@ -18,6 +18,7 @@ RUN set ex \
         libssl-dev \
         libtool  \
         pkg-config  \
+        git  \
 		" \
     && apt-get update \
     && apt-get install -y --no-install-recommends $buildDeps tini \
